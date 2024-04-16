@@ -34,7 +34,7 @@ section {
 }
 
 #banner{
-    background-image:url('http://via.placeholder.com/1500x500');/* establecer la imagen de fondo de banner*/
+    background-image: url('http://via.placeholder.com/1500x500'); /*Establecer banner*/
     background-size: cover; /*ajustar la imagen al area del banner*/
     color:#4b2323; /*establecer color del texto*/
     text-align: center; /*central texto del banner*/
@@ -61,6 +61,31 @@ section {
 .btn:hover {
     background-color: #0056b3; /*establece color del fondo*/
 }
+
+.destino-container{
+    display: flex;/*utiliza flexblox para alinear elementos*/
+    justify-content: space-between;/*distribuye uniformemente los elementos*/
+    flex-wrap: wrap;/*si los elementos no caben en la misma linea agrega una nueva linea con los elementos*/
+}
+
+.destino{
+    width: calc(33.33% - 20px); /*Establece el ancho entre los destinos menos el ancho */
+    margin-bottom: 20px; /*Define el margen inferior*/
+    text-align: center; /*centrar el texto*/
+}
+
+.destino img{
+    width: 100%; /*ajusta la imagen*/
+    border-radius: 8px; /*quita los bordes redondeando las esquinas*/
+}
+.destino h3{
+    margin-top: 10px;/**/
+}
+
+.destino p{
+    margin-top: 10px;/**/
+}
+
 footer{
     background-color: #333; /*establece color fondo de footer*/
     color: #fff; /*Establece corlo de texto de footer*/
