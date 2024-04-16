@@ -1,8 +1,70 @@
-*{
-    outline: solid black;
-}
+/*poner rayitas y no olvidarse del asterisco*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+/*Aca viene el estilo de una clase*/
+.container {
+    width: 100%; /*establece el ancho de un contenedor en un 80% */
+    margin: 0 auto; /*cemtra horizontamente el contenedor */
+}
+/*estilo de encabezado*/ 
+header {
+    background-color:#333; /*estetica el color de fondo*/
+    color:aliceblue;
+    padding: 20px 0; /*añadir relleno a la parte superior */
+}
+
+header h1{
+    margin: 0; /*elimina el margen por defecto*/
+}
+/*estilo de margen de elemento de lista*/
+nav ul li{
+    display: inline; /*al linear los elementos*/
+    margin-right: 20px; /*margen hacia la derecha*/
+}
+/*estilo vinculo*/
+nav ul li a{
+    color:#fff;
+    text-decoration: none;/*quitar subrayado*/
+}
+section {
+    padding: 40px 0; /*añador relleno a sections*/
+}
+
+#banner{
+    background-image:url('http://via.placeholder.com/1500x500');/* establecer la imagen de fondo de banner*/
+    background-size: cover; /*ajustar la imagen al area del banner*/
+    color:#4b2323; /*establecer color del texto*/
+    text-align: center; /*central texto del banner*/
+    padding: 30px; /*definir relleno abajo y arriba*/
+}
+
+
+#banner h2{
+    font-size: 36px; /*establecer tamaño de texto*/
+}
+
+#banner p{
+    font-size: 15px; /*establecer tamaño de P*/
+    margin-bottom: 20px; /*establece margen interior*/
+}
+
+.btn{
+    background-color: #007bff; /*Color fondo de boton*/
+    color: #fff; /*color del texto del boton*/
+    padding: 10px 20px; /*relleno de boton*/
+    text-decoration: none; /*quita decoracion de elance*/
+}
+/* estilo cuando pasa puntero sobre el boton*/
+.btn:hover {
+    background-color: #0056b3; /*establece color del fondo*/
+}
+footer{
+    background-color: #333; /*establece color fondo de footer*/
+    color: #fff; /*Establece corlo de texto de footer*/
+    text-align: center; /*centra el texto*/
+    padding: 20px 0; /*añade relleno superior e inferior*/
+}
+
