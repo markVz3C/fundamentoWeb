@@ -6,7 +6,7 @@ body {
 }
 /*Aca viene el estilo de una clase*/
 .container {
-    width: 100%; /*establece el ancho de un contenedor en un 80% */
+    width: 80%; /*establece el ancho de un contenedor en un 80% */
     margin: 0 auto; /*cemtra horizontamente el contenedor */
 }
 /*estilo de encabezado*/ 
